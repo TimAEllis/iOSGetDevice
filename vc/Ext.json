@@ -1,0 +1,93 @@
+{
+    "About": {
+        "Name": "iOS Get Device",
+        "Author": "Tim Ellis",
+        "Copyright": "Copyright (C) 2012 Tim Ellis",
+        "Comment": "This extension allows you to retrieve the current device that you're working on, for example iPhone 4S",
+        "URL": "http://insaynity.net/",
+        "Help": "",
+        "Identifier": "OSGD"
+    },
+    "ActionMenu": [],
+    "ConditionMenu": [
+        ["Is Device...",
+			[0, "Simulator"],
+			[1, "iPod Touch"],
+			[2, "iPod Touch 2nd Gen"],
+			[3, "iPod Touch 3rd Gen"],
+			[4, "iPod Touch 4th Gen"],
+			[5, "iPhone"],
+			[6, "iPhone 3G"],
+			[7, "iPhone 3GS"],
+			[8, "iPhone 4"],
+			[9, "iPhone 4S"],
+			[10, "iPad"],
+			[11, "iPad 2"],
+			[12, "iPad 3"]
+		]
+    ],
+    "ExpressionMenu": [
+        [0, "Get Device Raw Info"]
+    ],
+    "Actions": [],
+    "Conditions": [
+        {
+            "Title": "%o : Is Device: Simulator",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPod Touch",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPod Touch 2nd Gen",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPod Touch 3rd Gen",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPod Touch 4th Gen",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPhone",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPhone 3G",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPhone 3GS",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPhone 4",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPhone 4S",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPad",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPad 2",
+            "Triggered": false
+        },
+        {
+            "Title": "%o : Is Device: iPad 3",
+            "Triggered": false
+        }
+    ],
+    "Expressions": [
+        {
+            "Title": "GetDeviceRaw$(",
+            "Returns": "String"
+        }
+    ]
+}
